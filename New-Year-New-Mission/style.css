@@ -11,7 +11,7 @@
   position: relative;
   width: 100%;
   height: 85vh;
-  background-image: url("image/Banner\ Image.png");
+  background-image: url("image/Banner/ Image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,21 +98,59 @@
   justify-content: space-around;
   align-items: center;
 }
-.party-text h1{
+.party-text h1 {
   font-size: 50px;
   letter-spacing: 4px;
 }
-.party-text p{
-  margin: 20px 0px;
+.party-text p {
+  margin: 20px 0;
 }
-.party-text button{
+.party-text button {
   padding: 10px 25px;
   cursor: pointer;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .party-text img {
   width: 80%;
   background-size: cover;
   height: auto;
+}
+.hotel-rent {
+  position: relative;
+  padding: 50px 0;
+  margin: 20px 0px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.hotel-rent::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: linear-gradient(
+    to top,
+    rgba(253, 252, 252, 0) 60%,
+    rgba(230, 175, 175, 0.432) 100%
+  );
+}
+.hotel-rent p {
+  margin: 10px 0;
+}
+.hotel-rent p span {
+  color: red;
+}
+.hotel-rent button {
+  padding: 10px 25px;
+  margin: 20px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+  background: red;
+  color: #fff;
 }
