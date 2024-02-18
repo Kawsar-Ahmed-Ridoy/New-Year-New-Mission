@@ -45,3 +45,26 @@
 .text-container h2 {
   font-size: 40px;
 }
+.category{
+  text-align: center;
+}
+.category h1{
+font-size: 50px;
+color: red;
+margin-bottom: 20px;
+}
+.category small{
+color: red;
+margin-bottom: 4px;
+
+}
+.category h2{
+  margin-bottom: 20px;
+}
+.new-year{
+  text-align: center;
+}
+.new-year img{
+  width: 50%;
+  margin: 0 auto;
+}
