@@ -4,7 +4,7 @@
 }
 .container {
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
   padding: 20px 0;
 }
 .background-img {
@@ -183,4 +183,42 @@ color: red;
 .best-offer-year p{
   opacity: 0.7;
   margin: 20px 0px;
+}
+.holidays-sell-text{
+  text-align: center;
+}
+.holidays-sell-text h1{
+  font-size: 18px;
+}
+.holidays-sell-text h2{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.holidays-sell-text h2 span{
+  color: red;
+}
+.holidays-sell-text p{
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.holidays-img-container{
+  position: relative;
+}
+.img-adjust{
+  display: flex;
+  justify-content: space-between;
+}
+.img-adjust .box{
+  width: 50%;
+  z-index: 1;
+}
+.discount img{
+  position: absolute;
+  top: 8%;
+  right: 20%; 
+}
+.solid img{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
