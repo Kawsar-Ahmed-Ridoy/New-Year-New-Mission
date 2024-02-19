@@ -4,7 +4,7 @@
 }
 .container {
   width: 80%;
-  margin: 20px auto;
+  margin: 20px auto 0px auto;
   padding: 20px 0;
 }
 .background-img {
@@ -277,4 +277,34 @@ color: red;
   background: red;
   color: white;
   border-radius: 0px 20px 20px 0px;
+}
+footer{
+  background: #070211;
+  margin-top: 20px;
+  padding: 20px 0px;
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact p{
+  color: white;
+  line-height: 30px;
+}
+.contact img{
+  width: 15px;
+}
+hr{
+  color: #070211;
+  border: 1px solid gray;
+  margin: 30px 0px;
+  opacity: 0.4;
+}
+.contact-icon{
+  text-align: center;
+  letter-spacing: 20px;
+}
+.contact-icon img{
+  width: 40px;
 }
